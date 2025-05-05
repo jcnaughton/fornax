@@ -27,6 +27,15 @@ difference () {
     translate([35,0,25])
         rotate([0,90,0])
             cylinder(h=25,d=15);
+
+    translate([-75,0,75])
+        rotate([0,90,0])
+            cylinder(h=200,d=6);
+
+    translate([-75,0,25])
+        rotate([0,90,0])
+            cylinder(h=200,d=6);
+
     // for connection
     translate([0,-75,102.5])
         rotate([0,90,90])
