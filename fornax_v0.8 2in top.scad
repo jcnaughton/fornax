@@ -16,13 +16,13 @@ difference () {
 difference() {
         hull() {
         translate([-50,50,-10])
-        cylinder(d=7.8, h=15);
+        cylinder(d=7.6, h=15);
         translate([-50,-50,-10])
-        cylinder(d=7.8, h=15);
+        cylinder(d=7.6, h=15);
         translate([50,50,-10])
-        cylinder(d=7.8, h=15);
+        cylinder(d=7.6, h=15);
         translate([50,-50,-10])
-        cylinder(d=7.8, h=15);
+        cylinder(d=7.6, h=15);
     }
         hull() {
         translate([-50,50,-11])
