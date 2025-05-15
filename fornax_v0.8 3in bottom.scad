@@ -50,3 +50,9 @@ difference () {
 }
 
 //cylinder(h=50.8, d=101.6);
+
+//cylinder(h=50.8, d=101.6);
+translate([54,-10,95])
+rotate([90,0,90])
+linear_extrude(4)
+text("IDP");
