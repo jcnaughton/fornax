@@ -1,4 +1,3 @@
-//fornax_v0.8 2in bottom.scad
 $fn=64;
 difference () {
     hull() {
@@ -49,4 +48,9 @@ difference () {
         rotate([0,90,90])
             cylinder(h=200,d=4);
 }
+
 //cylinder(h=50.8, d=101.6);
+translate([54,-15,95])
+rotate([90,0,90])
+linear_extrude(4)
+text("HDD");
